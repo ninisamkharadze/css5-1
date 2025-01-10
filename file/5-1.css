@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+}
+
+.everythingDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+    background-color: #07081A;
+    justify-content: center;
+}
+
+.headerDiv {
+    display: flex;
+    padding: 14px 200px;
+    column-gap: 317.5px; 
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #261C51;    
+}
+
+.aDiv {
+    display: flex;
+    gap: 16px;
+    color: #fff;
+}
+
+.adiv > *::hover {
+    color: #B968DE; 
+}
+
+
+
+.mainTextAndButtonDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+h1 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.pstyles {
+    color: #C0C0C0;
+    font-size: 16px;
+}
+
+.buttonStyles {
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    background-color: #9100D3;
+    border-radius: 8px;
+    padding: 12px 24px;
+    margin-bottom: 88px;
+}
+
+.companyDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    justify-content: center;
+}
+
+.cardDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+    justify-content: center;
+}
+
+.logosAndCardDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+}
+
+.firstCard {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px 24px;
+    border-radius: 8px;
+    border: 1px solid #261C51;
+    align-self: stretch;
+    width: 304px;
+}
+
+.h2Styles {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.pStyles {
+    color: #C0C0C0;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.secondCard {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px 24px;
+    width: 304px;
+    align-self: stretch;
+    align-items: stretch;
+    border-radius: 8px;
+    border: 1px solid #261C51;
+}
+
+.thirdCard {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px 24px;
+    width: 304px;
+    align-self: stretch;
+    align-items: stretch;
+    border-radius: 8px;
+    border: 1px solid #261C51;
+}
+
+.footerDiv {
+    display: flex;
+    direction: row;
+    gap: 463px;
+    padding: 20px 200px;
+    border-top: 1px solid #261C51;   
+    align-items: center;
+}
+
+.spanStyles {
+    color: #fff;
+    font-size: 16px;
+}
+
+.footerLogosDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.footerLogoStyles {
+    width: 24px;
+    height: 24px;
+}
+
+.headerLOgo {
+    width: 99px;
+    height: 36px;
+}
+
+.user {
+    width: 32px;
+    height: 32px;
+}
